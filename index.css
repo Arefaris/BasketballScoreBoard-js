@@ -1,0 +1,110 @@
+@font-face {
+  font-family: fontik;
+  src: url(CursedTimerUlil-Aznm.ttf);
+  }
+
+
+  
+body {
+    margin: 0;
+    background: #1B244A;
+    background-size: cover;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#homeScore {
+    line-height: 127px;
+    font-family: fontik;
+    text-align: center;
+    font-size: 90px;
+    height: 120px;
+    width: 155px;
+    background: black;
+    color: #F94F6D;
+    margin: 21px auto auto auto;
+}
+
+#homeNumber {
+    padding: 5px;
+    margin-top: 12px;
+}
+
+#homeText {
+    text-align: center;
+    font-size: 40px;
+    color: #EEEEEE;
+    width: 149px;
+    height: 36px;
+    margin: 68px auto auto auto;
+}
+
+#guestScore {
+    line-height: 127px;
+    font-family: fontik;
+    text-align: center;
+    font-size: 90px;
+    height: 120px;
+    width: 155px;
+    background: black;
+    color: #F94F6D;
+    margin: 21px auto auto auto;
+}
+
+#guestNumber {
+    padding: 5px;
+    margin-top: 12px;
+}
+
+#guestText {
+    text-align: center;
+    font-size: 40px;
+    color: #EEEEEE;
+    width: 149px;
+    height: 36px;
+    margin: 68px 0px 0px 0px;
+}
+
+#buttonsHome {
+    text-align: center;
+}
+
+
+.styleB {
+    margin-top: 26px;
+    background-color: #1B244A;
+    font-family: fontik;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    height: 48px;
+    width: 48px;
+    border-radius: 5px;
+}
+
+#buttonsGUEST {
+    text-align: center;
+}
+
+
+
+.reset {
+    margin-top: 12px; 
+    text-align: center;
+    background-color: #1B244A;
+    font-family: fontik;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.main {
+    margin: auto auto;
+    height: 500px;
+    width: 500px;
+}
